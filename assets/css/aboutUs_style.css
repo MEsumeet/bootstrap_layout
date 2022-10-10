@@ -1,0 +1,49 @@
+
+
+/* features section */
+
+.feature {
+    border-radius: 5px;
+}
+
+/* testimonial section */
+
+.testimonial .carousel-inner, 
+.testimonial .carousel-item {
+	height: 30vh;
+}
+
+.testimonial .carousel-caption {
+    text-align: start;
+    left: 0;
+    right: 0;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+
+.testimonial button {
+    width: auto;
+    opacity: 1;
+    margin: 0 -40px;
+    
+}
+
+.testimonial button i {
+    font-size: 32px;
+    transition: all .25s;
+    scale: 1;
+}
+.testimonial button i:hover {
+    scale: 1.25;
+} 
+
+/* mediaquery */
+
+@media all and (max-width:576px) {
+    .testimonial button {
+        margin: 0;
+    }
+    .testimonial button i {
+        font-size: 24px;
+    }
+}

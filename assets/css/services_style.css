@@ -1,0 +1,33 @@
+
+
+/* service plan section */
+.service-feature ul li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-feature ul i {
+    font-size: 32px;
+}
+
+.service-plans .card {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.service-plans .card:hover {
+    transform: translateY(-25px);
+}
+
+/* faq section */
+
+.FAQ .btn.focus, .btn:focus {
+    box-shadow: none;
+}
+
+.FAQ .card {
+    background-color: #313131;
+}
+.FAQ .card-body {
+    font-size: 14px;
+}
